@@ -34,6 +34,7 @@ public class UserService implements SimpleCrud<Integer, UserDto> {
                   .code(-1)
                   .message(String.format("user while is error %s saving",e.getMessage()))
                   .build();
+
       }
     }
 
